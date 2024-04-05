@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#FCF7EF;
+}
+
+.contactmain{
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+   
+}
+.cont{
+    width: 1180px;
+    height: 320px;
+    margin-left: 8px;
+
+}
+.syhello{
+    font-size: 28px;
+    color: #F3945F;
+    opacity: 0.80;
+
+}
+.contactmain2{
+    width: 1200px;
+    height: 675px;
+    margin: auto;
+    display: flex;
+    /* border: 2PX solid red; */
+}
+.contactbox1{
+    width: 580px;
+    height: 675px;
+    margin: auto;
+}
+.contactfrom{
+    width: 580px;
+    height: 430px;
+
+   
+}
+.bold{
+    font-size: 16px;
+    padding-top: 27px;
+}
+.folo{
+   color: #FF6600;
+   margin-top: 10PX;
+}
+.conatcticon{
+    width: 580px;
+    height: 40px;
+    margin-top: 15px;
+}
+.iconics{
+    margin-top: 25px;
+    height: 30px;
+}
+.ic{
+    padding-left: 15px;
+    font-size: 19px; 
+   
+ 
+}
+.ic:hover{
+  color: #F06E27;
+}
+.contactbox2{
+    width: 500px;
+    height: 544px;
+    /* border: 2px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+}
+.contactone{
+    width: 480px;
+    height: 544px;
+    margin: auto;
+
+}
+.cont-pb{
+    font-size: 16px;
+    color: #746661;
+}
+#cars{
+    width: 479px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #363636;
+    margin-top: 20px;
+}
+#bike{
+    width: 479px;
+    height: 36px;
+    padding-left: 10px;
+    color: #363636;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#bikes{
+   
+    padding-left: 10px;
+    color: #363636;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#sunmit1{
+    width: 83px;
+    height: 36px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.location1{
+    width: 100%;
+    height: 400px;
+    margin-top: 75px;
+}
+.loction-child{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+.lastimg2{
+    width: 100%;
+    height: 490px;
+    margin-top: 50px;
+}
+.limg2{
+    width: 100%;
+    height: 490px;
+}  
+
+@media only screen and (max-width: 800px) {
+
+    .contactmain2{
+        display: grid;
+        grid-template-columns: auto;
+        border: 2px solid black;
+    }
+}

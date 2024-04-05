@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainH{
+    width: 100%;
+    height: 100px;
+    border-top: 15px solid #F06E27;
+    border-bottom: 3px solid #F06E27;
+    display: flex;
+    background-color: #FCF7EF;
+}
+.mouse{
+    display: none;
+    /* border: 2px solid red; */
+   
+    
+}
+.mouse1{
+    font-size:19px;
+    margin-top: 28px;
+    padding-left: 10px;
+}
+.nresponsiv{
+    display: none;
+    /* border: 2px solid black; */
+}
+
+.bars1{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: none;
+
+}
+.id{
+    width: 145px;
+    height: 44px;
+    /* border: 2px solid black;  */
+    margin-left: 90px;
+    margin-top: 18px;
+}
+.sl12{
+    width: 145px;
+    height: 44px;
+}
+.piw2{
+    width: 788px;
+    height: 76px;
+    /* border: 2px solid red; */
+    margin-top: 4px;
+
+    margin-left: 30px;
+}
+
+ul{
+    list-style-type: none;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 80px;
+    /* border: 2px solid black; */
+
+}
+ ul li{
+    float: left;
+    list-style-type: none;
+     margin-top: 15px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #746661;
+}
+ul{
+    gap: 40px;
+}
+#moj{
+ width: 140px;
+ height: 40px;
+ border-radius: 30px;
+ padding: 10px;
+ background-color: #F06E27;
+ color: white;
+}
+ul li a:hover{
+    color: #F06E27;
+}
+.icons{
+    width: 250px;
+    height: 75px;
+    /* border: 2px solid blue; */
+    margin-top: 4px;
+    margin-left: 60px;
+    display: flex;
+    gap: 10px;
+   
+}
+.ic1{
+    color: #746661;
+    font-size: 20px;
+  margin-left: 20px;
+    margin-top: 18px;
+}
+
+.is1 p{
+    font-size: 10px;
+    color: #746661;
+}
+.ic2{
+    color: #746661;
+    font-size: 20px;
+  margin-left: 6px;
+    margin-top: 18px;
+}
+
+.is2 p{
+    font-size: 10px;
+    color: #746661;
+}
+.ic3{
+    color: #746661;
+    font-size: 20px;
+  margin-left: px;
+    margin-top: 18px;
+}
+.is3{
+    /* border: 2px solid red; */
+    margin-left: px;
+   
+
+}
+.is3 p{
+    font-size: 10px;
+    color: #746661;
+}
+.ic4{
+    color: #746661;
+    font-size: 20px;
+  margin-left: 10px;
+    margin-top: 18px;
+}
+  
+.is4 p{
+    font-size: 10px;
+    color: #746661;
+}
+.mouse{
+    display: none;
+}
+@media only screen and (max-width:800px) {
+    .nresponsiv{
+        display: block;
+    }
+    .id{
+        margin: auto;
+    }
+    .piw2,.icons{
+        display: none;
+    }
+    .mouse{
+        display: block;
+    }
+    .bars1{
+        display: block;
+    }
+}
+

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maind{
+    width: 100%;
+    height: 450px;
+    /* margin-top: 10px; */
+}
+#ot{
+    width: 100%;
+    height: 450px;
+}

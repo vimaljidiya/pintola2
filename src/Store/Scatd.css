@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Scardmain{
+    border: 1px solid black;
+    width: 1200px;
+    /* height: 2252px; */
+    margin: auto;
+    margin-top: 50px;   
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+ 
+    
+}
+.cardmin1{
+   
+    box-shadow: 0 4px 8px 0 rgba(247, 244, 244, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+   
+    
+    
+    
+}
+.cit{
+    width: 100% !important;
+   
+}
+.c-titless{
+    width: auto;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    color: #000000;
+}
+.c-textes{
+  
+    margin-top: 7px;
+    
+  
+
+   
+}
+
+.c-titless:hover{
+    color: #F06E27;
+}
+
+.c-fromes{
+font-size: 13px;
+display: inline;
+font-style: italic;
+margin-left: 50px;
+}
+.rss{
+
+    font-size: 15px;
+    display: inline;
+}
+.opp{
+    display: inline;
+    text-decoration: line-through;
+    opacity: 0.50;
+    font-size: 15px;
+}
+.form-selectes{
+    width: 100%;
+    height: 31px;
+    text-align: center;
+    background-color: #FFF5EF;
+}   
+.btnn{
+    width:100%;
+    height: 30px;
+    color: #FFF5EF;
+    background-color: #F06E27;
+    border: 3px solid #F06E27;
+   
+}
+@media only screen and (max-width: 800px){
+
+    .Scardmain{
+        display: grid;
+        grid-template-columns: auto auto;
+       width: 759px;
+    }
+    .cardmin1{
+        width: auto !important;
+        height: auto;
+        border: 2px solid red;
+
+    }
+    .form-selectes, .btnn{
+        width: 100%;
+    }
+   .cit{
+    height: 358px !important;
+    border: 10px solid black;
+
+   }
+   .c-fromes{
+    margin-left: 100px;
+   }
+  
+
+}

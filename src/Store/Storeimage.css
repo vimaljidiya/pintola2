@@ -1,0 +1,21 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.simg{
+    width: 90%;
+    height: 524px;
+    border: 2px solid red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 800px){
+ 
+    .simg{
+      width: 90%;
+    }
+}

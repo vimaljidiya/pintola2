@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tarckh3{
+    text-align: center;
+    font-size: #1A1919;
+    margin-top: 40px;
+
+}
+.trackmain{
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+.trackbox{
+    width: 1170px;
+    height: 586px;
+    /* border: 2px solid aqua; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+.tarckboxing{
+    width: 584px;
+    height: 586px;
+   
+    margin: auto;
+}
+.Trackimg{
+    width: 584px;
+    height: 584px;
+}
+.trackbox-child{
+    width: 510px;
+    height: 510px;
+  
+   margin-left: 35px;
+   margin-top: 35px;
+}
+.tchild{
+   width: 510px;
+   height: 64px;
+ 
+  padding-top: 3px;
+   margin: auto;
+   display: flex;
+}
+.tchid1{
+    width: 252px;
+    height: 56px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    background-color: #F3945F;
+}
+.tchid2{
+    width: 252px;
+    height: 54px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    background-color: #ffeccd;
+}
+.trackp{
+    font-size: 14px;
+    margin-top: 40px;
+    color: #1A1919;
+}
+#trackfrom{
+      width: 504px;
+      height: 40px;
+      margin-top: 40px;
+      font-size: 14px;
+     border: none;
+      border-bottom: 1.5px solid black;   
+
+}
+#tarckbutton{
+    width: 504px;
+    height: 50px;
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: #F3945F;
+    border: 1px  solid  #F3945F;
+    border-radius: 4px;
+    
+}

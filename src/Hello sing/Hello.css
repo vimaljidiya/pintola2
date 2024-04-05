@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hellobution{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+}
+.buttion-child1{
+     width: 600px;
+     height: 46px;
+     background-color: #F06E27;
+     text-align: center;
+     padding-top: 10px;
+     font-size: 14px;
+     color: white;
+     border: 1px solid #F06E27;
+}
+.buttion-child2{
+    width: 600px;
+    height: 46px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    color: black;
+    border: 1px solid #F06E27;
+
+}
+.helloform1{
+    width: 1176px;
+    height: 443px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.helloform1-child{
+    width: 1117px;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin-left: 27px;
+    margin-top: 30px;
+
+
+}
+.helloheading{
+    width: 1097px;
+    height: 75px;
+    /* border: 2px solid blue; */
+    margin-left: 16px;
+}
+.helloh1{
+    font-size: 28px;
+}
+.hr{
+    border: 2px solid black;
+    width: 80px;
+    margin-top: 25px;
+}
+.label1{
+ margin-top: 35px;  
+ /* border: 1px solid red;  */
+}
+.label2{
+    /* border: 1px solid red;  */
+    margin-top: 15px;
+}
+#hellolabel1{
+    font-size: 14px;
+    margin-top: 15px;
+    width: 1114px;
+    height: 36px;
+    padding-left: 10px;
+    
+}
+#hellologin{
+    width: 71px;
+    height: 36px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 6px;
+}
+.hellop{
+font-size: 16px;
+margin-top: 20px;
+}
+
+
+.helloform2{
+    width: 1200px;
+    height: 610px;
+    
+    margin: auto; 
+    margin-top: 50px;
+}
+.helloform2-child{
+    width: 1117px;
+    height: 598px;
+   
+    margin-left:37px;
+    margin-top: px;
+}
+.helloheading2{
+    width: 1097px;
+    height: 75px;
+  
+}
+#hellolabel2{
+    font-size: 14px;
+    margin-top: 15px;
+    width: 538px;
+    height: 36px;
+    padding-left: 10px;
+    
+}
+#hellologin2{
+    width: 83px;
+    height: 36px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 6px;
+}

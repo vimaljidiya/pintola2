@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reh1{
+    width: 380px;
+    height: 58px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 30px;
+}
+.reh1 h1{
+    font-size: 28px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    height: 50px;
+}
+.recipsmain{
+    width: 1200px;
+    height:1577px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.recipsbox{
+    width: 580px;
+    height:  374px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+.reci-child{
+    width: 580px;
+    height: 235px;
+  
+
+}
+.Recipimg1{
+    width: 578px;
+    height: 235px;
+    
+}
+.content-blog{
+    width: 580px;
+    height: 108px;
+   
+}
+.th4{
+    font-size: 22px;
+     margin-top: 15px;
+    padding-left: 15px;
+}
+.th4:hover{
+    color: #F06E27;
+}
+.content-blog span{
+ display: inline-block;
+  font-size: 13px;
+ 
+  margin-top: 15px;
+  margin-left: 15px;
+
+}

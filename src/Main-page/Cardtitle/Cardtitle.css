@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cardtitle{
+    width: 90%;
+    height: 98px;
+    margin: 40px auto 0;
+    /* border: 2px solid red; */
+    padding-top: 40px;
+}
+.cardtitle-beta{
+    width: 98%;
+    height: 58px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardname{
+    height: 44px;
+    padding: 0 0 12px 0;
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all ease-in 0.1s;
+    border-bottom: 3px solid rgba(0, 0, 0);
+}
+.cardname:hover{
+    
+    color: #f06e27;
+    opacity: 0.7;
+}

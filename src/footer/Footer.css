@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    width: 100%;
+    height: 320px;
+  border-top: 3px solid #F06E27 ;
+  margin-top: 30px;
+  
+}
+.footer-child{  
+    width: 1250px;
+    height: 212px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 20px;   
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.box{
+    width: 249px;
+    height: 212px;
+  
+    
+}
+
+  
+.ic{
+      padding-left: 15px;
+      font-size: 19px; 
+     
+   
+}
+.ic:hover{
+    color: #F06E27;
+}
+
+#im{
+    width: 175px;
+    height: 53px;
+}
+#im:hover{
+    opacity: 0.5;
+    transition: 0.50s;
+}
+.follow{
+    /* border: 2px solid aqua; */
+    margin-top: 20px;
+    font-size: 16px;
+    color: #493B36;
+}
+.iconics{
+    margin-top: 25px;
+    height: 30px;
+}
+.sh{
+    
+    color: #493B36;
+    font-size: 23px;
+}
+.all{
+    
+    margin-top: 20px;
+    font-size: 16px;
+    color: #493B36;
+
+}
+.all:hover{
+    color: #F06E27;
+}
+.pre:hover{
+    color: #F06E27;
+}
+.pre{
+  
+    color: #493B36;
+    font-size: 16px;
+ 
+}
+#email{
+    border: 1px solid #493B36;
+    background-color: #FFFFFF;
+    color: #493B36;
+    width: 208px;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#submit{
+    border: 1px solid black;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 208px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#submit:hover{
+    color: #FFFFFF ;
+    background-color: #F06E27;
+    border: 1px solid #F06E27;
+    transition: 0.50s;
+}
+#dowlod{
+    border: 1px solid black;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 115px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 2px;
+
+}
+#dowlod:hover{
+    color: #FFFFFF ;
+    background-color: #F06E27;
+    border: 1px solid #F06E27;
+    transition: 0.50s;
+}
+@media only screen and (max-width: 800px) {
+    .footer-child{
+        margin: auto;
+        /* border: 2px solid red; */
+       width: 200px;
+       display: grid;
+       grid-template-columns: auto;
+       margin: 0;
+       padding: 0;
+       gap: 10px;
+          
+    }
+    .box{
+    
+        width:719px; 
+        /* border: 2px solid black; */
+        margin-left: 30px;
+
+    }
+        #im{
+             width:359px;
+             height: 110px;
+             /* border: 2px solid blue; */
+        }
+        #email{
+            border: 1px solid #493B36;
+            background-color: #FFFFFF;
+            color: #493B36;
+            width: 700px;
+            height: 35px;
+            padding-left: 10px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        #submit{
+            border: 1px solid black;
+            background-color: #000000;
+            color: #FFFFFF;
+            width: 700px;
+            height: 35px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+  
+ }
